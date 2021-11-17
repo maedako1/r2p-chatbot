@@ -38,7 +38,7 @@ for row in ws.iter_rows(min_row=1):
 
     
 
-st.sidebar.title("R2P Kwodge Base Bot")
+st.sidebar.title("R2P Knowledge Base Bot")
 st.title("""
 Bot is a knowledge sharing chatbot. Initialize the bot by clicking the "Initialize bot" button. 
 """)
