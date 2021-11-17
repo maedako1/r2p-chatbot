@@ -48,6 +48,7 @@ bot = ChatBot(name = 'chatbot', read_only = False,preprocessors=['chatterbot.pre
 logic_adapters = [{"import_path":'chatterbot.logic.BestMatch',
                 "default_response":"Sorry, I don't have an answer",
                 "maximum_similarity_threshold": 0.80}])
+bot.storage.drop()
 #corpus_trainer = ChatterBotCorpusTrainer(bot) 
 #corpus_trainer.train('chatterbot.corpus.english') 
 #return bot
